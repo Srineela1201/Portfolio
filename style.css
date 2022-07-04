@@ -1,0 +1,42 @@
+body{
+    background-color: #DFF6FF;
+}
+#Heading{
+    background-color: #06283D;
+    text-align: right;
+    word-spacing: 15px;
+    width:100%;
+}
+#Footer{
+    background-color: #06283D;
+    text-align: center;
+    word-spacing: 15px;
+    width:100%;
+}
+button{
+    font-size: 25px;
+}
+#Content{
+    display: flex;
+    align-items: left;
+    justify-content: left
+}
+#image{
+    flex-basis: 40%;
+}
+img{
+    float: right;
+    max-width: 100%
+}
+#text {
+    text-align: center;
+    font-size: 20px;
+    padding-left: 20px;
+}
+#MeText {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+  
