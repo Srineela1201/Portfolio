@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/cecbcbce27.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- HOME -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <div class="row">
+                    <div class="home-col1">
+                        <p>Web Developer</p>
+                        <h1>Hi, I'm <span>Srineela</span><br> Reddy From Hyderabad.</h1>
+                    </div>
+                    <div class="home-col2">
+                        <img src="images/Home.jpg">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/About.png">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hello, I'm Srineela. I'm a student at IIIT, Guwahati pursuing B.Tech in Computer Science who is deeply enthusiastic
+                        about cooking, art&craft and travelling. Binge-watching Marvel, Brooklyn99 and HarryPotter is my forever passtime. 
+                        Chocolates, pastries, pizza and chicken biryani are my guilty pleasure.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" id="tab-skills">Skills</p>
+                        <p class="tab-links" id="tab-experience">Experience</p>
+                        <p class="tab-links" id="tab-education">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>Java, HTML, CSS, SQL, JavaScript</li>
+                            <li><span>Frameworks</span><br>Bootstrap, Maven, JUnit, Mockito, PowerMockito</li>
+                            <li><span>Tools</span><br>Git, Canva, VS Code, IntelliJ, Jira, BitBucket</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June 2023- July 2023</span><br>Software Development Intern, NASDAQ</li>
+                            <li><span>Dec 2022-March 2023</span><br>Yuvaan- Event Management Core Team ,IIIT Guwahati</li>
+                            <li><span>Sept 2021-June 2022</span><br>Fine Arts Club Coordinator ,IIIT Guwahati</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.tech</span><br>Indian Institute of Information Technology, Guwahati </li>
+                            <li><span>XI-XII</span><br>Gyanavapi Junior Colleg</li>
+                            <li><span>X</span><br>Johnson Grammar School</li>
+                        </ul>
+                    </div>
+              
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJECTS -->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/grocery.jpeg">
+                    <div class="layer">
+                        <h3>Grocery Store</h3>
+                        <p>Shop fresh and convenient groceries online at our store for a seamless and satisfying shopping experience.</p>
+                        <a href="https://srineela1201.github.io/Groco/"><i class="fa-solid fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/weather.jpeg">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>Your go-to source for accurate and up-to-date weather forecasts and information.</p>
+                        <a href="https://srineela1201.github.io/WeatherApp/"><i class="fa-solid fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/dog.jpg">
+                    <div class="layer">
+                        <h3>TinDog</h3>
+                        <p>Meet new and interesting dogs nearby.</p>
+                        <a href="https://srineela1201.github.io/TinDog/"><i class="fa-solid fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    
+    <!-- CONTACT -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><a href = "mailto: srineela.official@gmail.com"><i class="fa-solid fa-envelope"></i>srineela.official@gmail.com</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/srineela/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/srineela_baireddy/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://t.me/Srineela"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                    <a href="images/Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your EmailId" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Srineela Baireddy.</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+    <!-- <script>
+        
+      </script> -->
+</body>
+</html>
